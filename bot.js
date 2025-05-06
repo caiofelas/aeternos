@@ -1,8 +1,8 @@
 const mineflayer = require('mineflayer');
 const http = require('http');
 
-const serverIP = '134.65.23.38'; // Seu IP do servidor
-const serverPort = 25565;             // Porta do servidor (padrão: 25565)
+const serverIP = '1092837465.aternos.me'; // Seu IP do servidor
+const serverPort = 39564;             // Porta do servidor (padrão: 39564)
 
 const bot = mineflayer.createBot({
     host: serverIP,
@@ -156,5 +156,5 @@ bot.on('error', err => {
     botStatus = 'error';
 });
 
-// IP do servidor para os fake players: 134.65.23.38
-// Porta do servidor para os fake players: 25565
+// IP do servidor para os fake players: 1092837465.aternos.me
+// Porta do servidor para os fake players: 39564
