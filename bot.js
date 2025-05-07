@@ -7,7 +7,7 @@ const serverPort = 39564;             // Porta do servidor (padrão: 39564)
 const bot = mineflayer.createBot({
     host: serverIP,
     port: serverPort,
-    username: 'FakePlayer1.0' // Nome do bot principal
+    username: 'Vinicius13' // Nome do bot principal
 });
 
 const fakePlayers = {};
